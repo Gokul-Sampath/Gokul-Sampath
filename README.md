@@ -2,7 +2,7 @@
   <h1>Hi, I'm Gokul Sampath! 👋</h1>
 </div>
 
-**Skilled and loyal individual with strong leadership and adaptive problem-solving abilities, dedicated to continuous learning. Specialized in Business Intelligence and Web Development, committed to creating innovative solutions.**
+**I Currently Persuing BSc Computer Science in RVS College of Arts and Science, Specialized in Business Intelligence and Web Development, committed to creating innovative solutions.**
 **I'm currently working on:**
 
 - [Project 1: Online Admission Service] 
