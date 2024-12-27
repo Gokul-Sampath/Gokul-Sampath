@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Letter Generator For College Students</title>
+    <link rel="stylesheet" href="./leave letter.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Leave Letter Generator For College Students</h1>
+    <div class="llg">
+        <div class="llg1">
+            <div class="llg12">
+                <h1 style="text-align: center;">Details</h1>
+                <label for="iname">Name</label>
+                <input type="text" id="iname">
+                <label for="icourse">Course</label>
+                <input type="text" id="icourse">
+                <label for="irollnumber">Roll Number</label>
+                <input type="text" id="irollnumber">
+                <label for="icollege">College</label>
+                <input type="text" id="icollege">
+                <label for="icity">City - Pincode</label>
+                <input type="text" id="icity">
+                <label for="ireason">Reason</label>
+                <input type="text" id="ireason">
+                <label for="text">Start Date</label>
+                <input type="text" id="isdate">
+                <label for="text">End Date</label>
+                <input type="text" id="iedate">
+                <button onclick="leavelettergenerator()" style="margin: 5%;padding: 10%;border-radius: 35%;">Generate_Letter</button>
+            </div>
+        </div>
+        <div class="llg2">
+            <div class="llg22">
+                <h1 style="text-align: center;">Permission Letter</h1>
+                <h2>From</h2>
+                <p id="ofname">__________</p>
+                <p id="ofcourse">__________</p>
+                <p id="ofcollege">__________</p>
+                <p id="ofcity">__________</p>
+                <h2>To</h2>
+                <p>The Head Of The Department</h2>
+                <p id="ocollege">__________</p>
+                <p id="ocity">__________</p>
+                <h2>Subject: Regarding Apology For Taking Leave . . .</h2>
+                <h2>Respected Sir/Madam</h2>
+                <p>Myself <span id="oname">__________</span> from <span id="ocourse">__________</span> hereby writing to request a letter of absence from college due to <span id="oreason">__________</span>. I kindly seek your permission to be excused from <span id="osdate">__________</span> to <span id="oedate">__________</span></p>
+                <h2 style="text-align: center;">Thank you.</h2>
+                <h1 style="text-align: end;">Yours Obediently</h1>
+                <p style="text-align: end;" id="osname"></p>
+                <p style="text-align: end;" id="orollnumber"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./leave letter.js"></script>
+</body>
+</html>

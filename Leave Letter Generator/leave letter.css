@@ -1,0 +1,48 @@
+body{
+    background-color: purple;
+}
+.llg{
+    display: flex;
+}
+.llg1{
+        background-color: cyan;
+        border: 2px solid black;
+}
+.llg12{
+    margin-left: 10%;
+    margin-right: 10%;  
+
+}
+.llg2{
+    flex: 50%;
+    background-color: white;
+    border: 2px solid black;
+}
+.llg22{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: small;
+}
+label{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: pink;
+    box-shadow:rgba(255, 192, 203, 0.877) 0px 0px 10px 5px;
+    border: 1px solid black ;
+}
+input{
+    /* display: flexbox; */
+    height: 4vh;
+    width: 95.5%;
+}
+button{
+    display:grid;
+    background-color: skyblue;
+    margin-left: 18%;
+}
+p{
+    font-size:large;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
