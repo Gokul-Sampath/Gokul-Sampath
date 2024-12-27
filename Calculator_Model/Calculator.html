@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Calculator.css">
+</head>
+<body>
+    <h2 class="topic">Web Calculator</h2>
+    <nav class="wcbody">
+        <div class="wcproject">
+            <div class="g1">
+                <div class="g11">
+                    <div class="g111">
+                        <img class="logo" src="https://1000logos.net/wp-content/uploads/2017/12/Color-Casio-Logo.jpg" alt="">
+                    </div>
+                    <div class="g112">
+                        <div class="sp"></div>
+                        <div class="sp"></div>
+                        <div class="sp"></div>
+                        <div class="sp"></div>
+                    </div>
+                </div>
+                <div class="g12">
+                        <div class="g121">
+                            <div class="input">
+                                <input class="inputbox" id="value1" type="text">
+                                <input class="inputbox" id="value2" type="text">
+                            </div>
+                            <div class="output">
+                                <p class="prompt">Output:</p>
+                                <p class="outputbox" id="output"></p>
+                            </div>
+                        </div>
+                    <div class="g122">
+                        <div class="btn">
+                            <button class="exit" id="exit" onclick="off()">OFF</button>
+                            <button class="operatornext1" id="reload" onclick="reload()">CLR</button>
+                            <button class="operatornext" id="square_root" onclick="root_value()">RT</button>
+                            <button class="operatornext" id="max_val" onclick="power()">PR</button>
+                        </div>
+                        <div class="btn">
+                            <button class="operator" id="add" onclick="add()">+</button>
+                            <button class="num" id="one">1</button>
+                            <button class="num" id="two">2</button>
+                            <button class="num" id="three">3</button>
+                            <button class="operator" id="modulo" onclick="modulo()">%</button>
+                        </div>
+                        <div class="btn">
+                            <button class="operator" id="subract" onclick="subract()">-</button>
+                            <button class="num" id="four">4</button>
+                            <button class="num" id="five">5</button>
+                            <button class="num" id="six">6</button>
+                            <button class="operator" id="divide" onclick="divide()">/</button>
+                        </div>
+                        <div class="btn">
+                            <button class="operator" id="multiply" onclick="multiply()">x</button>
+                            <button class="num" id="seven">7</button>
+                            <button class="num" id="eight">8</button>
+                            <button class="num" id="nine">9</button>
+                            <button class="num" id="zero">0</button>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <script src="./Calculator.js"></script>
+    </nav>
+</body>
+</html>
