@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS CGPA Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span class="g">G</span><span class="s">S</span> CGPA Calculator</h1>
+        <div id="gpa-sections">
+            <!-- GPA Sections will be appended here dynamically -->
+        </div>
+        <div class="button-group">
+            <button id="add-gpa-button">Add Semester</button>
+            <button id="delete-gpa-button">Delete Last Semester</button>
+        </div>
+        <div class="results-area">
+            <h2>Results</h2>
+            <div id="gpa-results">
+                <!-- Individual GPA results will appear here -->
+            </div>
+            <p><strong>CGPA:</strong> <span id="cgpa-result">0</span></p>
+            <p><strong>Percentage:</strong> <span id="percentage-result">0%</span></p>
+        </div>
+        <button id="calculate-all-button">Calculate All Semesters</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(12, 106, 143); */
+    background-image: url("./image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+.g{
+    color: orange;
+    font-family:'Times New Roman', Times, serif;
+}
+.s{
+    color: rgb(12, 106, 143);
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.gpa-section {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fef5e7;
+}
+
+.gpa-section h3 {
+    color: #ff7700;
+    margin-bottom: 8px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 4px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(12, 106, 143);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.results-area {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: seashell;
+    color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.results-area h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.results-area p {
+    font-size: 15px;
+    margin: 6px 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#calculate-all-button {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
